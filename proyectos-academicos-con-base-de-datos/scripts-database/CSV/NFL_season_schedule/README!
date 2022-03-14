@@ -1,5 +1,5 @@
 Assignment 2 asks you to build a graphical user interface that allows the user to view information about an
-NFL season schedule. The tool makes use ofdata from the 2013 NFL season.
+NFL season schedule. The tool makes use of data from the 2013 NFL season.
 With this assignmnet are three data files:
 1) NFL_2013.csv: Each row in the file contains information regarding a unique game played in the 2013
 NFL season. Information included in each row are Week, Visiting Team, Home Team, Game Date,
