@@ -1,1 +1,34 @@
+Assignment 2 asks you to build a graphical user interface that allows the user to view information about an
+NFL season schedule. The tool makes use ofdata from the 2013 NFL season.
+With this assignmnet are three data files:
+1) NFL_2013.csv: Each row in the file contains information regarding a unique game played in the 2013
+NFL season. Information included in each row are Week, Visiting Team, Home Team, Game Date,
+Game Time and Television Network.
 
+2) Teams.txt: The file contains the 32 NFL teams that participated in the 2013 NFL Season. Each row
+contains a unique team code (Strings of length 2 or 3 ).
+
+3) Networks.txt: The file contains the 5 television networks that broadcasted games in 2013. Each row
+contins a unique network name.
+
+Your program should create a GUI for the user that allows the following functionality:
+a) Displays all games shown on a specific network AFTER the user chooses the specific network they are
+interested in. The game information shown should include all fields provided in the CSV file.
+
+b) Displays the entire schedule for a specific team AFTER the user chooses the team they are interested
+in. The information shown should include all fields provided in the CSV file.
+
+c) Allows the user to press a GUI control which executes a method that calculates the number of games
+played on EACH of the 5 networks (in all of 2013) and displays the result in the GUI.
+
+d) Allows the user to select a game and update the DATE and TIME (only those two fields) of that game.
+Your program must use (at the minimum) the following controls:
+• Button
+• Label
+• TextField
+• ListView
+Of course, you are welcome to use any other control in addition to these.
+Note that you must use Java FX to complete this assignment. You are also required to use OpenCSV to
+read the CSV file. You should create class(es) that coincide with the data you are provided, but there are no
+specific requirements in that regard. This is intentionally an open-ended assignment for you to use the skills
+you have learned in the best way you see fit. There are many correct ways to accomplish what is required.
